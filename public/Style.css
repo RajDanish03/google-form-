@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+ 
+  .form-container {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+
+  input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .radio-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+  }
+
+  .radio-group label {
+    font-weight: normal;
+  }
+
+  button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background :  #9504b3a6;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #cc4ee6;
+  }
+  
+  a:hover {
+    background-color: #cc4ee6;
+  }
+  @media(max-width:2200px){
+    body{
+      background: linear-gradient(to right, #FFFFFF, #E3C8F7, #C084FC);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+  }
+  .login-container{
+    background: linear-gradient(to right,#ffffffe5,#a66cd3,#ac61f8);
+    height: 250px;
+    width: 280px;
+    border: 2px solid rgb(81, 43, 88);
+    border-radius: 15px ;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+ 
+  }
+  
+a{
+  width: 250px;
+  background: #9504b3a6;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  margin-left: 5px;
+  color : black;
+}

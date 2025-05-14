@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 1 - Web Form</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+<div class="max-widht">
+<div class="form-container">
+  <h2>Registration Form</h2>
+
+  <form method="post" action="/register">
+
+    <label for="fullname">Full Name</label>
+    <input type="text" id="fullname" name="fullname" required>
+
+    <label for="contact">Contact Number</label>
+    <input type="tel" id="contact" name="contact" required>
+
+    <label for="address">Address</label>
+    <textarea id="address" name="address" rows="3" required></textarea>
+
+    <label for="company">Company Name</label>
+    <input type="text" id="company" name="company" required>
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="password">Password</label>
+    <input type="password" id="email" name="inp_password" required>
+
+    <label for="department">Department</label>
+    <select id="department" name="department" required>
+      <option value="">Select</option>
+      <option>HR</option>
+      <option>Sales</option>
+      <option>Development</option>
+      <option>Marketing</option>
+      <option>Others</option>
+    </select>
+
+    <label>Gender</label>
+    <div class="radio-group">
+      <label><input type="radio" name="gender" value="male"> Male</label>
+      <label><input type="radio" name="gender" value="female"> Female</label>
+      <label><input type="radio" name="gender" value="prefer-not"> Prefer not to say</label>
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+</div>
+</div>
+
+</body>
+</html>
